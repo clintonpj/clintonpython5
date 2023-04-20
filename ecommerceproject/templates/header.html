@@ -1,0 +1,15 @@
+<!--{% load static %}-->
+<!--<header>-->
+<!--  <center>-->
+<!--    <a href="{% url 'shop:allProdCat' %}"></a>  <img src="{% static 'img/logo1.png'  %}" style="width:100px;height:100px;" alt="logimage">-->
+<!--  </center>-->
+<!--</header>-->
+
+{% load static %}
+<header>
+  <center>
+    <a href="{% url 'shop:allProdCat' %}">
+      <img class="logo-image" src="{% static 'img/logo.png' %}" style="width:100px;height:100px;"  alt="logimage">
+    </a>
+  </center>
+</header>
